@@ -1,0 +1,9 @@
+@media (max-width:768 px)
+.contact-wrapper, .form-reservas
+  grid-template-columns: 1fr
+  grid-template-rows: repeat(6, 1fr)
+  background-color: #f7ddea
+
+.nav
+  flex-direction: row
+  justify-content: center

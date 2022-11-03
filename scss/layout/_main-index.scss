@@ -1,0 +1,29 @@
+h1 {
+    font-family: 'Bebas Neue';
+    font-size: xx-large;
+    color: black;
+  }
+
+header h2 {
+  font-family: 'Bebas Neue';
+  text-align: center;
+  color: black;
+  font-size: medium;
+}
+nav {
+    @include props-flex;
+   height: 60px;
+   background-color: #f7ddea;
+   text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+  font-family: 'Bebas Neue';
+  color: black;
+  font-size: medium;
+  padding: 18px;
+  margin-right: 15px;
+  text-align: center;
+}

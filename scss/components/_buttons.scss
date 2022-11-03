@@ -1,0 +1,11 @@
+.form-reservas form button
+  background-color: #f7ddea
+  border: 0
+  text-transform: uppercase
+  padding: 1em
+  font-family: 'Bebas Neue'
+  font-size: medium
+
+  &:hover, &:focus
+    background-color: #b97999
+    color: antiquewhite
